@@ -17,7 +17,6 @@
 		61FE66B3E1E94D128421E6FF /* appsealing.lic in Resources */ = {isa = PBXBuildFile; fileRef = 357792B943DB4271A9D8EB06 /* appsealing.lic */; settings = {ATTRIBUTES = (Weak, ); }; };
 		910A475F77EA4A0BBEFED0AA /* AppsealingiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CCF404EDF4C8D8FAFF832 /* AppsealingiOS.mm */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */; };
-		55D5E7C735D445C0A0AFBC63 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BD610C45A6AD4E6D9C5B05DC /* PrivacyInfo.xcprivacy */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
-		BD610C45A6AD4E6D9C5B05DC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; name = "PrivacyInfo.xcprivacy"; path = "/Users/puzznic/Project/ASIA_Ionic/ios/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,15 +108,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2F7132465A0A46898E05028D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BD610C45A6AD4E6D9C5B05DC /* PrivacyInfo.xcprivacy */,
-			);
-			name = Resources;
-			path = undefined;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,7 +176,6 @@
 				504EC30D1FED79650016851F /* Main.storyboard in Resources */,
 				2FAD9763203C412B000D30F8 /* config.xml in Resources */,
 				61FE66B3E1E94D128421E6FF /* appsealing.lic in Resources */,
-				55D5E7C735D445C0A0AFBC63 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
